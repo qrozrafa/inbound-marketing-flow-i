@@ -32,6 +32,9 @@ header{
     display: block;
     z-index: -1;
 }
+a{
+    text-decoration: none;
+}
 
 .logo{
     font-size: 3rem;
