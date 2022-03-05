@@ -145,15 +145,13 @@ ol li {
 }
 
 .forms{
-    background-color: #4b4b4b !important;
+    background-color: #fff !important;
     padding: 15px !important;
-    border-radius: 5px;
-    filter: drop-shadow(0 0 1rem #7c7c7c);
     text-align: center;
 }
 
 .forms > p {
-    color: #fff;
+    color: #4d4d4d;
     text-align: center;
     margin-bottom: 12px;
 }
