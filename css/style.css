@@ -156,7 +156,7 @@ header{
 
 .box-btn{
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: center;
 }
 
