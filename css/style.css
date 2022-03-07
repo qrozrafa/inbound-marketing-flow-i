@@ -32,17 +32,18 @@ header{
     display: block;
     z-index: -1;
 }
-a{
-    text-decoration: none;
-}
 
 .logo{
     font-size: 3rem;
     text-align: center;
+    padding: 8px;
+}
+
+.logo a{
+    
     background:-webkit-linear-gradient(top left, rgba(255, 1, 1, 1.0), rgba(252, 255, 21, 1.0));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 8px;
+    -webkit-text-fill-color: transparent;   
 }
 
 .home-img{
@@ -153,12 +154,17 @@ a{
     font-size: 20px;
 }
 
+.box-btn{
+    display: flex;
+    justify-content: center;
+}
+
 .btn-sobre{
     text-align: center;
     background-color: #ffaf40;
     border-radius: 36px;
     width: 150px;
-    margin: 32px auto;
+    margin: 28px 0 32px 16px;
     padding: 10px;
     transition: 0.5s;
 }
